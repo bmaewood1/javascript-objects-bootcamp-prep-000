@@ -54,3 +54,7 @@ var playlist = {'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil 
 function updateplaylist(playlist, artistName, songTitle) {
   return Object.assign({},playlist,{[artistName]: songTitle});
 }
+
+function removeFromPlaylist(playlist, artistName) {
+  
+}

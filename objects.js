@@ -47,7 +47,7 @@ describe('objects', () => {
 
 
 
-var playlist = {'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"};
+var playlist = new Object({'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"})
 
 
 function updateplaylist(playlist, artistName, songTitle) {

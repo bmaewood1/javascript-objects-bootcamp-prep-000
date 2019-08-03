@@ -52,5 +52,5 @@ var playlist = { 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes"};
 
 
 function updateplaylist(playlist, artistName, songTitle) {
-  return Object.assign({},object,{[key]: value})obj[artistName] = songTitle
+  return Object.assign({},playlist,{[artistName]: songTitle});
 }

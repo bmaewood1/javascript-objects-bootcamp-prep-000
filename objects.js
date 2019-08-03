@@ -51,6 +51,6 @@ var playlist = new Object();
 var playlist = { 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes"};
 
 
-function updatePlaylist(playlist, artistName, songTitle) {
+function updateplaylist(playlist, artistName, songTitle) {
   obj[artistName] = songTitle
 }

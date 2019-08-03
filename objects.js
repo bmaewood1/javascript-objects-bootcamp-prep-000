@@ -46,7 +46,7 @@ describe('objects', () => {
 
 
 
-
+var playlist = new
 
 var playlist = { 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes"};
 

@@ -47,7 +47,8 @@ describe('objects', () => {
 
 
 
-var playlist = {}
+var playlist = new Object({'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes', 'Phil Ochs': "Here's to the State of Mississippi"})
+
 
 function updateplaylist(playlist, artistName, songTitle) {
   return Object.assign({},playlist,{[artistName]: songTitle});

@@ -13,7 +13,7 @@ updateplaylist(playlist, 'Phil Ochs', 'Here`s to the State of Mississippi')
 
 function removeFromPlaylist(object, key) {
   delete object.key;
-  return object
+  return playlist
 }
 
 removeFromPlaylist('Slowdive', "Alison")

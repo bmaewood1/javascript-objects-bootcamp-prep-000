@@ -14,7 +14,7 @@ function removeFromPlaylist(playlist, artistName) {
 }
 
 
-var playlist = new Object ({'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes"})
+var  = new Object ({})
 
 var obj = { prop: 1 }
 function updateObjectWithKeyAndValue(object, key, value) {

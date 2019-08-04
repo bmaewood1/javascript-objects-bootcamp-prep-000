@@ -51,6 +51,7 @@ function updateplaylist(obj, key, value) {
 
 const playlist = { 'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes' };
 
+updateplaylist(playlist, key, value)
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;

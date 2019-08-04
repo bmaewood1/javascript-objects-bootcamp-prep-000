@@ -20,11 +20,11 @@ var obj = { prop: 1 }
 function updateplaylist(object, key, value) {
   return Object.assign({},obj,{[key]:value})
 }
-function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+function updateplaylis(object, key, value) {
   object[key] = value
   return object
 }
-function deleteFromObjectByKey(object, key) {
+function removeFromPlaylisty(object, key) {
   delete object.key;
   return obj
 }

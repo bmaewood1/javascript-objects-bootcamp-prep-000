@@ -52,6 +52,8 @@ function updateplaylist(object, key, value) {
   return Object.assign({}, object, {'Phil Ochs': "Here's to the State of Mississippi"});
 }
 
+const playlist = { 
+
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;
   return playlist

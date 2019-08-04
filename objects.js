@@ -22,8 +22,11 @@ function updateplaylist(object, key, value) {
   return object
 }
 
+updateplaylist(playlist, 'Phil Ochs', 'Here`s to the State of Mississippi')
 
-function removeFromPlaylisty(object, key) {
+function removeFromPlaylist(object, key) {
   delete object.key;
   return obj
 }
+
+removeFromPlaylist()

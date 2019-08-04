@@ -1,18 +1,18 @@
 
 
 
-var playlist = new Object ({ 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes" })
+var playlist = new Object ({ 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes" });
 
 
 function updateplaylist(object, key, value) {
-  object[key] = value
-  return object
+  object[key] = value;
+  return object;
 }
 
-updateplaylist(playlist, 'Phil Ochs', 'Here`s to the State of Mississippi')
+updateplaylist(playlist, 'Phil Ochs', 'Here`s to the State of Mississippi');
 
 function removeFromPlaylist(object, key) {
-  delete playlist.Slowdive
+  delete playlist.Slowdive;
   return playlist;
 }
 

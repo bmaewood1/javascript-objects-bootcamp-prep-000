@@ -12,10 +12,10 @@ function updateplaylist(object, key, value) {
 updateplaylist(playlist, 'Phil Ochs', 'Here`s to the State of Mississippi')
 
 function removeFromPlaylist(object, key) {
-  delete object.key;
+  delete playlist.'Slowdive';
   return object
 }
 
-removeFromPlaylist;
+removeFromPlaylist('Slowdive')
 
 

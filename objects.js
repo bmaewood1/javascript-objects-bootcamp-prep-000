@@ -50,6 +50,7 @@ describe('objects', () => {
 
 function updateplaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, {'Phil Ochs': "Here's to the State of Mississippi"});
+  const playlist = 
 }
 
 function removeFromPlaylist(playlist, artistName) {

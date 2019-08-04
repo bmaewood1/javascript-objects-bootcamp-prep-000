@@ -4,10 +4,11 @@
 
 
 function updateplaylist(playlist, artistName, songTitle) {
+  const playlist = { 'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes' };
   return Object.assign({}, playlist, { ['Phil Ochs'] : 'Here`s to the State of Mississippi'});
 }
 
-const playlist = { 'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes' };
+
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;

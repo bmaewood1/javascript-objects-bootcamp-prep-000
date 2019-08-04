@@ -16,6 +16,6 @@ function removeFromPlaylist(object, key) {
   return object
 }
 
-removeFromPlaylist(playlist, 'Slowdive')
+removeFromPlaylist;
 
 

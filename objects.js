@@ -49,7 +49,7 @@ function updateplaylist(obj, key, value) {
   return obj;
 }
 
-const playlist = { 'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes' };
+var playlist = { 'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes' };
 
 updateplaylist(playlist, key, value)
 

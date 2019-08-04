@@ -44,8 +44,10 @@ describe('objects', () => {
 
  var playlist = { artistName : 'songTitle'}
  
- playlist['Slowdive'] = 'Alison'
- playlist['My Bloody Valentine'] = 'Sometimes'
+ playlist.Slowdive = 'Alison';
+ 
+ playlist['My Bloody Valentine'] = 'Sometimes';
+ 
 
 
 function updateplaylist(playlist, artistName, songTitle) {

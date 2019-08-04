@@ -42,17 +42,15 @@ describe('objects', () => {
   })
 })
 
- var playlist = { 
-   Slowdive: 'Alison',
-   'My Bloody Valentine': 'Sometimes'
-}
- 
 
-function updateplaylist(object, key, value) {
-  return Object.assign({}, object, {'Phil Ochs': "Here's to the State of Mississippi"});
+
+function updateplaylist(obj, key, value) {
+  obj['Phil Ochs'] = "Here's to the State of Mississippi";
+  return obj;
 }
 
-const playlist = { 
+const playlist = { 'Slowdive': 'Alison', 'My Bloody Valentine': 'Sometimes' };
+
 
 function removeFromPlaylist(playlist, artistName) {
   delete playlist.artistName;

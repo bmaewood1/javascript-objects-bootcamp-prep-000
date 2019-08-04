@@ -45,7 +45,7 @@ describe('objects', () => {
 
 
 function updateplaylist(obj, key, value) {
-  obj['Phil Ochs'] = "Here's to the State of Mississippi";
+  obj[key] = value;
   return obj;
 }
 

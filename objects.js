@@ -3,8 +3,7 @@ var playlist = new Object ({ 'Slowdive': "Alison", 'My Bloody Valentine': "Somet
 
 
 function updateplaylist(object, key, value) {
-  object[key] = value;
-  return object;
+  return Object.assign({},object,{[key]: value})
 }
 
 updateplaylist(playlist, 'Phil Ochs', 'Here`s to the State of Mississippi');
@@ -17,3 +16,7 @@ function removeFromPlaylist(object, key) {
 
 
 
+
+function updateplaylist(object, key, value) {
+  object[key] = value;
+  return object;

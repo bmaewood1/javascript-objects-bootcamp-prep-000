@@ -14,7 +14,7 @@ function removeFromPlaylist(playlist, artistName) {
 }
 
 
-var  = new Object ({ 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes" })
+var playlist = new Object ({ 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes" })
 
 
 function updateplaylist(object, key, value) {
@@ -24,8 +24,4 @@ function updateplaylist(object, key, value) {
 function removeFromPlaylisty(object, key) {
   delete object.key;
   return obj
-}
-function destructivelyDeleteFromObjectByKey(object, key) {
-  delete object.key
-  return object
 }

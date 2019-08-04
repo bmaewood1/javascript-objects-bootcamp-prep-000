@@ -14,13 +14,10 @@ function removeFromPlaylist(playlist, artistName) {
 }
 
 
-var  = new Object ({})
+var  = new Object ({ 'Slowdive': "Alison", 'My Bloody Valentine': "Sometimes" })
 
-var obj = { prop: 1 }
+
 function updateplaylist(object, key, value) {
-  return Object.assign({},obj,{[key]:value})
-}
-function updateplaylis(object, key, value) {
   object[key] = value
   return object
 }

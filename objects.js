@@ -42,11 +42,10 @@ describe('objects', () => {
   })
 })
 
- var playlist = { artistName: "songTitle"}
- 
- playlist.Slowdive = 'Alison';
- 
- playlist['My Bloody Valentine'] = 'Sometimes';
+ var playlist = { 
+   Slowdive: 'Alison',
+   'My Bloody Valentine': 'Sometimes'
+}
  
 
 
